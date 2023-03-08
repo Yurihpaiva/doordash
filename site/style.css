@@ -1,0 +1,286 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  position: relative;
+}
+.back-img {
+  display: flex;
+  flex-flow: column;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  z-index: 1;
+  height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* padding-top: 16px;
+  padding-bottom: 192px; */
+  background-image: url("https://img.cdn4dd.com/cdn-cgi/image/fit=cover,width=1200,format=auto,quality=60/https://cdn.doordash.com/media/consumer/home/landing/new/hero_landing_us_alt.jpg");
+}
+
+.Titulo {
+  font-size: 50px;
+}
+
+.btn-css {
+  color: black;
+  background-color: white;
+  font-size: 15px;
+  font-weight: 700;
+  border: 2px solid white;
+  padding: 8px;
+  border-radius: 80px;
+  margin-right: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container1::before{
+  content: "Top Cities";
+  font-size: 29px ;
+  font-weight: 700;
+
+}
+
+.container4::before{
+  content: "Top Cuisines Near You";
+  font-size: 29px ;
+  font-weight: 700;
+
+}
+
+.container6::before{
+  content: "Get to Know Us";
+  font-size: 29px ;
+  font-weight: 700;
+}
+
+.container7::before{
+  content: "Let Us Help You";
+  font-size: 29px ;
+  font-weight: 700;
+}
+
+.container8::before{
+  content: "Doing Business";
+  font-size: 29px ;
+  font-weight: 700;
+}
+
+
+
+.h2-title {
+  color: white;
+  text-align: center;
+  font-size: 78px;
+  font-weight: 300;
+}
+
+.sign-btn {
+  margin-left: 370px;
+  font-weight: 600;
+  position: relative;
+  left: 500px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: none;
+  /* margin: 5; */
+}
+.form-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#divBusca {
+  background-color: white;
+  border: solid 1px;
+  border-radius: 15px;
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+}
+#divBusca {
+  align-items: center;
+
+  font-size: 18px;
+  border: none;
+  height: 32px;
+  width: 260px;
+}
+
+.colunas{
+display: grid;
+grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
+padding: 100px;
+background-color:  rgb(25, 25, 25);
+color: white;
+position: relative;
+bottom: 300px;
+
+
+}
+
+.colunas02{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+  padding: 100px;
+  position: relative;
+  bottom: 300px;
+  
+  background-color:  rgb(25, 25, 25);
+  color: white;
+}
+
+.colunas03{
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  bottom: 0;
+  background-color:  rgb(25, 25, 25);
+}
+
+.treesession {
+  display: flex;
+  justify-content:space-evenly;
+  padding: 110px;
+  gap: 60px;
+  position: relative;
+ bottom: 150px;
+ z-index: 1;
+}
+
+.foursession{
+  background: rgb(255, 240, 237);
+  display: flex;
+  justify-content:space-between;
+  padding: 120px;
+  gap: 300px;
+  position: relative;
+  bottom: 80px;
+  bottom: 300px;
+}
+
+
+
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.segundasession {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 200px;
+  scale: 110%;
+}
+
+.texto01 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: -0.04ch;
+  text-transform: none;
+  color: rgb(25, 25, 25);
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  font-variant-ligatures: no-common-ligatures;
+}
+
+.texto02 {
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 24px;
+  letter-spacing: 0ch;
+  text-transform: none;
+  color: rgb(25, 25, 25);
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  font-variant-ligatures: no-common-ligatures;
+}
+
+.texto03 {
+  color: rgb(235, 23, 0);
+  border: 0px;
+  padding: 0px;
+  margin: 12px 0px 0px;
+  outline: 0px;
+  cursor: pointer;
+  background-color: transparent;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-top: 0px !important;
+}
+
+.seta {
+  flex-shrink: 0;
+  overflow: visible;
+}
+
+li {
+  display: inline-block;
+  padding: 5px;
+  margin: 0;
+}
+.logo {
+  position: relative;
+  left: 300px;
+  bottom: 10px;
+}
+
+#signUp {
+  display: inline-block;
+  text-align: center;
+  height: 40px;
+  width: 70px;
+  border-radius: 18px;
+  background-color: whitesmoke;
+
+  font-weight: 900;
+}
+
+div div ul a li p {
+  font-weight: 900;
+}
+
+@media only screen and (min-width: 390px) {
+}
+h1 {
+  font-size: 50px;
+}
+p {
+  font-size: 20px;
+}
+
+button{
+  color: white;
+  background-color: orangered;
+  border: none;
+border-radius: 15px;
+
+}
